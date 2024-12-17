@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oumar Daoua Mahamat - Acteur</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div class="container">
+            <h1>Oumar Daoua Mahamat</h1>
+            <p>Acteur</p>
+        </div>
+    </header>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <div class="container">
+            <h2>Bienvenue sur mon site !</h2>
+            <p>Bonjour, je suis Oumar Daoua Mahamat, acteur passionné, originaire de Sarh, au Tchad. Je vous invite à découvrir mon parcours et mes réalisations. Explorez mes projets et suivez mes dernières actualités !</p>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="a-propos">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Je suis né à Sarh, au Tchad, le 23 novembre 2001. Depuis mon enfance, j'ai toujours été attiré par le monde du cinéma et du théâtre. Mon rêve est de raconter des histoires puissantes et de toucher les gens à travers mes rôles. Que ce soit dans des films dramatiques, des comédies ou même des productions théâtrales, mon but est de toujours offrir des performances authentiques et captivantes.</p>
+        </div>
+    </section>
+
+    <!-- Section Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Mes Réalisations</h2>
+            <div class="portfolio-item">
+                <h3>Film A</h3>
+                <p>Un drame émouvant où j'ai incarné un personnage principal luttant contre l'injustice sociale.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Film B</h3>
+                <p>Une comédie où j'ai interprété un personnage comique, apportant de la légèreté à l’histoire.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form action="#" method="post">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oumar Daoua Mahamat. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
